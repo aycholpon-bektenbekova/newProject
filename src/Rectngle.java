@@ -11,4 +11,9 @@ public class Rectngle extends Figure{
     public double calculate() {
         return (sidea + sideb) * 2;
     }
+
+    @Override
+    public void draw() {
+
+    }
 }

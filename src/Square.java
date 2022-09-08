@@ -10,4 +10,9 @@ public class Square extends Figure{
     public double calculate() {
         return side * 4;
     }
+
+    @Override
+    public void draw() {
+
+    }
 }

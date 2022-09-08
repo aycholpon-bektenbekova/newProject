@@ -1,4 +1,6 @@
-public abstract class Figure {
+import Animals.Drowable;
+
+public abstract class Figure implements Drowable {
     private String name;
 
     public Figure(String name) {
